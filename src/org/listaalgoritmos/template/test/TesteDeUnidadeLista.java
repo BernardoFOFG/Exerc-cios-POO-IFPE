@@ -58,7 +58,7 @@ public class TesteDeUnidadeLista {
 		RespostaListaExercicio.imprimirArrayInverso(arrayOrig);
 		System.setOut(old);
 		Assert.assertTrue(resultado.equals(baos.toString()));
-		
+
 	}
 	
 	@Test
